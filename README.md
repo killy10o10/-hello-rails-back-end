@@ -100,8 +100,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
+- `Front end repository` https://github.com/killy10o10/hello-react-front-end 
+
 ```
-  git clone https://github.com/killy10o10/hello-react-rails.git
+  git clone https://github.com/killy10o10/hello-rails-back-end.git
+  git clone https://github.com/killy10o10/hello-react-front-end.git
 ```
 
 change directory to cloned folder
@@ -124,15 +127,23 @@ Install project dependecies with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project backend, execute the following command:
 
 ```
   rails db:prepare
   rails db:seed
-  ./bin/dev
+  rails s -p 3001
+```
+To run the project front-end, execute the following command:
+
+```
+  npm install
+  npm run dev
 ```
 
-- After running `./bin/dev`, use the app on `http://localhost:3000/` in the browser!
+- After running `rails s -p 3001`, use the app on `http://localhost:3001/api/v1/messages` in the browser for the json part of the app!
+
+- After running `npm run dev` , use the app on `http://127.0.0.1:5173/` in the browser for the Front end part of the app!
 
 - Congratulations! your're running **_hello-react-rails_**
 
