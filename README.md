@@ -98,32 +98,23 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone these repositories to your desired folder:
 
-- `Front end repository` https://github.com/killy10o10/hello-react-front-end 
 
 ```
   git clone https://github.com/killy10o10/hello-rails-back-end.git
   git clone https://github.com/killy10o10/hello-react-front-end.git
 ```
 
-change directory to cloned folder
+change directory to cloned folders in separate terminals
 
 ```
-  cd hello-react-rails
+  cd hello-rails-back-end
 ```
 
-### Install
-
-Install project dependecies with:
-
 ```
-  gem install bundler
-  bundle install
-  npm install
+  cd hello-react-front-end
 ```
-
--
 
 ### Usage
 
@@ -141,9 +132,9 @@ To run the project front-end, execute the following command:
   npm run dev
 ```
 
-- After running `rails s -p 3001`, use the app on `http://localhost:3001/api/v1/messages` in the browser for the json part of the app!
+- After running `rails s -p 3001`, use the app on `http://localhost:3001/api/v1/messages` in the browser for the `json` part of the app!
 
-- After running `npm run dev` , use the app on `http://127.0.0.1:5173/` in the browser for the Front end part of the app!
+- After running `npm run dev` , use the app on `http://127.0.0.1:5173/` in the browser for the `Frontend` part of the app!
 
 - Congratulations! your're running **_hello-react-rails_**
 
